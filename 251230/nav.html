@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{border:1px solid red}
+        li{border:1px solid black}
+        li{list-style: none;}
+        ul{padding:0}
+        body{border:1px solid green}
+        body{margin:0;} /* display:inline,block,inline-block, flex */
+        ul{margin-top:0;margin-bottom:0;}
+        li{display:inline}
+        li{padding: 50px 12px;} /*padding에 top 부분은 계산이 되지 않음*/
+        li{display: inline-block}
+        li{display: flex;}
+        ul{display:flex;}
+        li{padding:8px 12px;}
+        li:hover{background-color: black; color: white}
+
+    </style>
+</head>
+<body>
+    <!-- nav>ul>li*4{MENU $} -->
+    <nav>
+        <ul>
+            <li>MENU 1</li>
+            <li>MENU 2</li>
+            <li>MENU 3</li>
+            <li>MENU 4</li>
+        </ul>
+    </nav>
+</body>
+</html>

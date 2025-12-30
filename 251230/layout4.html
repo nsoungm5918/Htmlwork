@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        1)body의 색 지정
+        2)공통설정 지정(*)-글자색, 글자 크기, 중앙 정렬
+        3)#wrap 설정-너비,높이(선택), margine:0 auto
+        4)#aside, #content 설정-너비 높이 배경색
+        5)aside,header,main,footer 너비,높이 
+        */
+        body{background: aqua;}
+        *{ color:white; font-size: 40px; text-align: center;}
+        #wrap{width:1009px; height:auto; margin:0 auto;}
+        #aside{width:300px; height:1000px; background: rgb(140, 234, 234);}
+        #content{width:700px; height:1000px; background: rgb(109, 205, 205);}
+        #aside,#content{display:inline-block;vertical-align: top;}
+        header,main,footer { width:700px;height:330px;}
+        header{background-color: burlywood;}
+        main{background-color: bisque;}
+        footer{background-color: antiquewhite;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+    
+        <div id="aside">
+            <aside>aside</aside>
+        </div>
+        <div id ="content">
+            <header>header</header>
+            <main>main</main>
+            <footer>footer</footer>
+        </div>
+    
+    </div>
+</body>
+</html>
